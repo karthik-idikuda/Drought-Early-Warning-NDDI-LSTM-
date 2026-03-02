@@ -1,39 +1,36 @@
-# Drought Early Warning System (NDDI-LSTM) - Main
+<div align="center">
+
+# Drought Early Warning NDDI LSTM 
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Jupyter%20Notebook-blue?style=for-the-badge&logo=codeigniter&logoColor=white" alt="Language" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=law&logoColor=white" alt="License" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status" />
+</p>
+
+*An advanced software structure developed by Karthik Idikuda.*
+
+<br/>
+
+</div>
 
 ## Overview
-A predictive analytics model designed to forecast drought conditions using the Normalized Difference Drought Index (NDDI) and Long Short-Term Memory (LSTM) networks. This tool aids agricultural planning by predicting water stress levels well in advance.
+Climate forecasting model using satellite NDDI data.
 
-## Features
--   **Time-Series Forecasting**: LSTM models trained on historical climate data.
--   **Index Calculation**: Automatic computation of NDDI from NDVI and NDWI.
--   **Regional Analysis**: Focused predictions for specific agricultural zones.
--   **Visualization**: Trend graphs showing drought severity over time.
+<br/>
 
-## Technology Stack
--   **Deep Learning**: TensorFlow / Keras (LSTM).
--   **Data Storage**: NetCDF / CSV.
--   **Analysis**: NumPy, Pandas, Scikit-learn.
+## Architecture & Features
+- **Clean Architecture:** Ensures high maintainability and modular structure.
+- **Optimized Performance:** Built to handle intensive operations with minimal latency.
+- **Scalable Design:** Seamlessly adaptable for future functional expansions.
 
-## Usage Flow
-1.  **Input**: Upload historical rainfall and satellite index data.
-2.  **Train**: Model learns temporal patterns and seasonality.
-3.  **Forecast**: System predicts NDDI values for the next 3-6 months.
-4.  **Report**: Visual dashboard highlights regions at risk.
-
-## Quick Start
-```bash
-# Clone the repository
-git clone https://github.com/Nytrynox/Drought-Early-Warning.git
-
-# Install requirements
-pip install -r requirements.txt
-
-# Train the model
-python train_model.py
-```
+<br/>
 
 ## License
-MIT License
+This project operates under the **MIT License**. See the `LICENSE` file for more details.
 
-## Author
-**Karthik Idikuda**
+---
+<div align="center">
+  <br/>
+  <i>Engineered by <b>Karthik Idikuda</b></i>
+</div>
